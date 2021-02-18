@@ -1,0 +1,13 @@
+﻿* Add in the wpc_supplicant.conf file:-
+
+
+ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
+update_config=1
+country=IN
+
+
+network={
+ ssid="<Name of your wireless LAN>"
+ psk="<password of your wireless LAN>"
+ scan_ssid=1
+}
